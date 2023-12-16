@@ -491,6 +491,7 @@ span {
   background: var(--main-color);
   width: 100%;
   height: 100%;
+  
   display: block;
   border-radius: 7px;
 }
@@ -510,7 +511,7 @@ span {
   width: 80%;
 }
 .skills-column:nth-child(1) .skill-contents .progress:nth-child(6) .bar span {
-  width: 40%;
+  width: 60%;
 }
 .skills-column:nth-child(1) .skill-contents .progress:nth-child(7) .bar span {
   width: 30%;
@@ -767,7 +768,15 @@ span {
     margin-left: 10px;
     
   }
-
+  
+  .pers{
+    font-size: 200px;
+  }
+  @media (max-width:858) {
+    .perso{
+      height: 300px;
+    }
+  }
 }
 @media (max-width: 874px){
   .content-con{
@@ -783,6 +792,10 @@ span {
   }
   .about-content-con{
     width: 60rem;
+    height: fit-content;
+  }
+  .more{
+    display: none;
   }
 }
 @media (max-width: 462px) {
